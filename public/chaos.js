@@ -8,7 +8,7 @@ class Point {
     this.width = 10;
     this.height = 10;
     this.ctx = ctx;
-    this.color = "red";
+    this.color = "rgb("+parseInt(Math.random()*255)+","+parseInt(Math.random()*255)+","+parseInt(Math.random()*255)+")";
   }
 
   draw() {
